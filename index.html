@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <link href="https://fonts.googleapis.com/css?family=DM Serif Text" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet" />
+    <title>Momentum</title>
+  </head>
+  <body id="body" class="bgImage">
+    <p id="welcome">Welcome!</p>
+    <form id="login-form">
+      <input
+        id="inputName"
+        class="input"
+        type="text"
+        placeholder="YOUR NAME"
+        required
+      />
+      <input class="button" type="submit" value="ENTER" />
+    </form>
+    <button id="logoutBtn" class="button hidden">LOG OUT</button>
+    <div id="leftDiv" class="toDo-container hidden">
+      <img id="defaultImg" src="img/winniethepooh.gif" />
+      <p id="loginedStatus" class="title"></p>
+      <div id="weather-container">
+        <div id="weather-status">
+          <img></img>
+          <p id="weather"></p>
+        </div>
+        <p id="city"></p>
+      </div>
+      <span id="clock"></span>
+    </div>
+    <div id="rightDiv" class="toDo-container hidden">
+      <p id="todo-title" class="title">TO DO LIST</p>
+      <form id="todo-form">
+        <input class="input" type="text" placeholder="WRITE TO DO" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
