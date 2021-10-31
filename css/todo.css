@@ -1,0 +1,143 @@
+.toDo-container {
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  margin: 30px -100px;
+  overflow: auto;
+  background-color: rgba(161, 161, 161, 0.322);
+  border-radius: 10px;
+}
+
+#leftDiv {
+  width: 400px;
+  left: 10%;
+}
+
+#rightDiv {
+  width: 1000px;
+  right: 10%;
+}
+
+#logoutBtn {
+  position: absolute;
+  right: 4%;
+  top: 7%;
+  margin: 0px 0px;
+}
+
+#defaultImg {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 15px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  font-family: "DM Serif Text";
+  font-size: 50px;
+  font-weight: 400;
+  color: rgba(7, 7, 7, 0.85);
+}
+
+#loginedStatus {
+  width: 300px;
+  margin-left: -150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+#todo-title {
+  margin-top: 7px;
+  margin-left: -125px;
+}
+
+#todo-form input {
+  width: 380px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  margin: 90px -190px;
+  border-radius: 3px;
+}
+
+#weather-container {
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  margin: 300px -150px;
+}
+
+#weather-container img {
+  width: 60px;
+  float: left;
+}
+
+#weather-status {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#weather,
+#city {
+  text-align: center;
+  font-family: "DM Serif Text";
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(7, 7, 7, 0.85);
+  line-height: 50px;
+}
+
+#clock {
+  text-align: left;
+  font-family: "Marcellus";
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 18, 18, 0.95);
+  margin-top: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#todo-list {
+  margin: 180px;
+  width: 600px;
+}
+
+#todo-list li {
+  list-style: none;
+}
+
+#todo-list li span {
+  text-align: left;
+  font-family: "Marcellus";
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 18, 18, 0.95);
+}
+
+#todo-list button {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+#todo-list button:hover {
+  cursor: pointer;
+  background-color: white;
+  opacity: 75%;
+}
